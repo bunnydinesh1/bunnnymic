@@ -1,0 +1,173 @@
+/* Global Styles */
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000; /* Black background */
+  color: #d4af37; /* Gold color */
+}
+
+h1, h2, h3 {
+  color: #d4af37; /* Gold color */
+}
+
+/* Header Section */
+header {
+  height: 100vh;
+  background: linear-gradient(135deg, #000000, #333333); /* Black shades */
+  color: #d4af37; /* Gold color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero .btn {
+  background-color: #d4af37; /* Gold color */
+  color: #000000; /* Black text */
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+  background-color: #b8860b; /* Darker gold */
+}
+
+/* Navigation */
+nav {
+  background-color: #000000; /* Black color */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #d4af37; /* Gold color */
+  font-size: 18px;
+  padding: 10px 20px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #b8860b; /* Darker gold */
+}
+
+/* Content */
+.content {
+  padding: 50px 20px;
+  text-align: center;
+  color: #d4af37; /* Gold color */
+}
+
+.content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.song-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.song-item {
+  background-color: #000000; /* Black color */
+  color: #d4af37; /* Gold color */
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.song-item:hover {
+  transform: translateY(-10px);
+}
+
+.song-item h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.song-item a {
+  color: #b8860b; /* Darker gold */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.song-item a:hover {
+  color: #d4af37; /* Gold color */
+}
+
+/* Contact Form */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin: 10px 0;
+  padding: 12px;
+  border: 2px solid #d4af37; /* Gold color */
+  border-radius: 5px;
+  background-color: #000000; /* Black background */
+  color: #d4af37; /* Gold color */
+}
+
+form button {
+  background-color: #d4af37; /* Gold color */
+  color: #000000; /* Black text */
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #b8860b; /* Darker gold */
+  color: #000000; /* Black text */
+}
+
+/* Footer */
+footer {
+  background-color: #000000; /* Black color */
+  color: #d4af37; /* Gold color */
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
